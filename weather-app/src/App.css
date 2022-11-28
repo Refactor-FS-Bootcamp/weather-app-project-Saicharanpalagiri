@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding: 0;
+}
+.Nav{
+  height:100vh;
+  width:30vh;
+  background-color: rgb(104, 104, 183);
+  float:left;
+}
+nav{
+  display:flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+}
+.btn1{
+  width:100%;
+  border:none;
+  background-color: rgb(104, 104, 183);
+  padding: 15px;
+  font-weight: 500;
+  font-style:solid ;
+  color:orange;
+}
+.active{
+  background-color: orange;
+  color: rgb(104, 104, 183);
+}
+.routes{
+  height:100vh;
+  width:calc(100vh-30vh);
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+}
+.ctybtn{
+  background-color: rgb(104, 104, 183);
+  color:white;
+  border:none;
+  border-radius:5px;
+  height:40px;
+  padding: 10px;
+}
+.content{
+ margin-left: 5px;
+}
