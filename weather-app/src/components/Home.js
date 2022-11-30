@@ -3,14 +3,17 @@ import Header from './Header'
 
 export default function Home() {
   return (
-    <div>
-       <div className='home'>
-      <Header/>
-      <div className="content">
+    <div className='home'>
+     <Header text="My Favourite Cities" item="Add new City"/>
+     
+      {/* <div className="content">
       <p className='para'>You have not selected any city as a favourite yet 
               </p>
-      </div>
-    </div>
+      </div> */}
+       <div className='homeContent'>
+       <p className='para'>You have not selected any city as a favourite yet 
+              </p>
+     </div>
     </div>
   )
 }

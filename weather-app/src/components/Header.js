@@ -1,14 +1,14 @@
 import React from 'react'
 import Button from './Button'
 
-export default function Header() {
+export default function Header(props) {
   return (
-   <>
-     <div className="header">
+    <>
+    <div className="header">
         
-        <h2>My Favourite Cities</h2>
-        {/* <button className='ctybtn'>Add new City</button> */}
-        <Button class="ctybtn" item="Add new City"/>
-    </div></>
+        <h3>{props.text}</h3>
+        {props.item && <Button class="ctybtn" item={props.item}/>}
+    </div>
+        </>
   )
 }

@@ -1,40 +1,78 @@
-body{
-  margin:0;
-  padding: 0;
-}
-.Nav{
-  height:100vh;
-  width:30vh;
-  background-color: rgb(104, 104, 183);
-  float:left;
-}
-nav{
-  display:flex;
-  flex-direction: column;
-  text-decoration: none;
-  text-align: center;
-}
-.btn1{
-  width:100%;
-  border:none;
-  background-color: rgb(104, 104, 183);
-  padding: 15px;
-  font-weight: 500;
-  font-style:solid ;
-  color:orange;
-}
+
 .active{
   background-color: orange;
   color: rgb(104, 104, 183);
 }
-.routes{
+.content{
   height:100vh;
-  width:calc(100vh-30vh);
+  width:calc(100vh-50vh);
+}
+body{
+  margin:0;
+  padding: 0;
 }
 .header{
   display:flex;
   justify-content: space-between;
+ align-items: center;
+ padding: 0.5%;
+ margin-left: 18%;
+}
+.content{
+ margin-left: 5px;
+}
+.homeContent{
+ 
+ height:calc(100vh-10vh);
+}
+
+.cityContent{
+  border:0.2px solid black;
+  width:30%;
+  height:500px;
+  margin-left:20%;
+  border-radius:6px;
+  box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.cityContentHead{
+display:flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px;
+margin-bottom: 0;
+}
+.cityMain{
   padding:10px;
+  padding-top: 0;
+}
+body{
+  margin:0;
+  padding:0;
+}
+.sider{
+  margin-top:0;
+  height:100vh;
+  width:200px;
+  background-color: rgb(85, 85, 212);
+  text-align: center;
+}
+.active-container{
+align-items: center;
+  background-color: rgb(255, 179, 0);
+  color: rgb(85, 85, 212);
+  height:40px;
+  font-weight: 600;
+  
+ 
+}
+.deactive-container{
+  color: orange;
+  height:40px;
+  font-weight: 600;
+ 
+}
+.custom-lay{
+  float:left;
 }
 .ctybtn{
   background-color: rgb(104, 104, 183);
@@ -43,7 +81,9 @@ nav{
   border-radius:5px;
   height:40px;
   padding: 10px;
+
 }
-.content{
- margin-left: 5px;
+.homeContent{
+  margin-left:19%;
+ height:calc(100vh-10vh);
 }
