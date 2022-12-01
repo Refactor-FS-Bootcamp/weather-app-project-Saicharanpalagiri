@@ -11,9 +11,7 @@ export default function Sider(props) {
     setSelectedItem(item);
     if (item === "Home") {
       navigate("/");
-      console.log("home");
     } else if (item === "City") {
-      console.log("Cities");
       navigate("/city");
     }
   };

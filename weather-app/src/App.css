@@ -1,12 +1,6 @@
 
-.active{
-  background-color: orange;
-  color: rgb(104, 104, 183);
-}
-.content{
-  height:100vh;
-  width:calc(100vh-50vh);
-}
+
+
 body{
   margin:0;
   padding: 0;
@@ -16,14 +10,10 @@ body{
   justify-content: space-between;
  align-items: center;
  padding: 0.5%;
- margin-left: 18%;
+ margin-left: 14%;
 }
 .content{
  margin-left: 5px;
-}
-.homeContent{
- 
- height:calc(100vh-10vh);
 }
 
 .cityContent{
@@ -52,14 +42,18 @@ body{
 .sider{
   margin-top:0;
   height:100vh;
-  width:200px;
-  background-color: rgb(85, 85, 212);
+  width:400%;
+  display: flex;
+  flex-direction: column;
+  
+  background-color: #633ea5;;
   text-align: center;
+  overflow-y: auto;
 }
 .active-container{
 align-items: center;
-  background-color: rgb(255, 179, 0);
-  color: rgb(85, 85, 212);
+  background-color:#FFCE5E;
+  color: #633ea5;
   height:40px;
   font-weight: 600;
   
@@ -75,7 +69,7 @@ align-items: center;
   float:left;
 }
 .ctybtn{
-  background-color: rgb(104, 104, 183);
+  background-color: #633ea5;;
   color:white;
   border:none;
   border-radius:5px;
@@ -84,6 +78,100 @@ align-items: center;
 
 }
 .homeContent{
-  margin-left:19%;
+  margin-left:15%;
  height:calc(100vh-10vh);
+}
+.model-header{
+  background-color: #FFCE5E;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  
+  height:60px;
+  color:black;
+  border-radius:12px 12px 0 0;
+ 
+
+}
+
+
+.model-wrapper{
+  
+  
+ width:100%;
+  height:598px;
+  background: rgba(0, 0, 0, 0.3);
+ z-index: 9998;
+ 
+}
+.activeHeader{
+  background: rgba(0, 0, 0, 0.3);
+}
+.into{
+ 
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.model-content{
+  width:30%;
+  margin-left:30%;
+  margin-top: 80px;
+  border-radius: 5px;
+  border:none;
+ background: white;
+ border-radius: 10px;
+
+}
+.city-content{
+  text-align: center;
+ max-height:280px;
+  overflow-y: scroll;
+ cursor: pointer;
+ overflow: hidden;
+}
+.search{
+  align-items: center;
+ align-self: center;
+ margin-left:15%;
+ margin-top: 5%;
+  width:70%;
+  
+  height:40px;
+}
+.into{
+  margin-right: 0;
+}
+.cityNameContent{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  border:1px solid #e5e5e5;
+border-radius:4px;
+  margin-top: 0;
+margin:3% 1.5%;
+padding: 5px;
+  font-weight: 600;
+  height:40px;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px){
+.sider {
+    width: 100%;
+    height: 76px;
+    background: #633ea5;
+    display: flex;
+    flex-direction: row;
+}
+}
+.para{
+  margin-bottom: 0;
+  
 }
