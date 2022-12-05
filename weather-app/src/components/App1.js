@@ -45,7 +45,7 @@ const App1: React.FC = () => {
   return (
     <>
       <Button type="primary" onClick={showModal} style={{float:"right"}}>
-        Open Modal
+      Add city model
       </Button>
       <Modal title="Add city model" open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
       <input className='search' onChange={searchChange} value={search} placeholder="search city"/>

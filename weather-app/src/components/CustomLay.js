@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header';
-import Home from './Home';
+import Home from '../pages/Home';
 import Sider from './Sider';
 
 export default function CustomLay() {
